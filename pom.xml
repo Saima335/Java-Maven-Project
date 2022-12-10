@@ -5,6 +5,12 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>MavenProject</name>
   <description>First Maven Project</description>
+  <dependency>
+  <groupId>junit</groupId>    
+  <artifactId>junit-dep</artifactId>
+  <version>4.8.2</version>
+  <scope>test</scope>
+</dependency>
   <build>
     <plugins>
         <plugin>
